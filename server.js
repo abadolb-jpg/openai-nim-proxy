@@ -35,7 +35,8 @@ const MODEL_MAPPING = {
   
   // Другие актуальные модели
   'deepseek-r1': 'deepseek-ai/deepseek-r1',
-  'llama-3.3-70b': 'meta/llama-3.3-70b-instruct'
+  'llama-3.3-70b': 'meta/llama-3.3-70b-instruct',
+  'deepseek-v4-pro': 'deepseek-ai/deepseek-v4-pro'
 };
 
 // Health check endpoint
