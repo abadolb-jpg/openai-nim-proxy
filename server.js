@@ -36,7 +36,7 @@ const MODEL_MAPPING = {
   // Другие актуальные модели
   'deepseek-r1': 'deepseek-ai/deepseek-r1',
   'llama-3.3-70b': 'meta/llama-3.3-70b-instruct',
-  'deepseek-v4-pro': 'deepseek-ai/deepseek-v4-pro',
+  'deepseek-v4-pro': 'deepseek-ai/deepseek-v4-pro-0813',
   'nemotron-3-ultra': 'nvidia/nemotron-3-ultra-550b-a55b',
   'nemotron-3-nano-omni': 'nvidia/nemotron-3-nano-omni-30b-a3b-reasoning'
 };
