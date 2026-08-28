@@ -19,7 +19,7 @@ const NIM_API_KEY = process.env.NIM_API_KEY;
 const SHOW_REASONING = false; // Set to true to show reasoning with <think> tags
 
 // 🔥 THINKING MODE TOGGLE - Enables thinking for specific models that support it
-const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwargs thinking parameter
+const ENABLE_THINKING_MODE = true; // Set to true to enable chat_template_kwargs thinking parameter
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
@@ -38,7 +38,9 @@ const MODEL_MAPPING = {
   'llama-3.3-70b': 'meta/llama-3.3-70b-instruct',
   'deepseek-v4-pro': 'deepseek-ai/deepseek-v4-pro-0813',
   'nemotron-3-ultra': 'nvidia/nemotron-3-ultra-550b-a55b',
-  'nemotron-3-nano-omni': 'nvidia/nemotron-3-nano-omni-30b-a3b-reasoning'
+  'nemotron-3-nano-omni': 'nvidia/nemotron-3-nano-omni-30b-a3b-reasoning',
+      'glm-5.1': 'deepseek-ai/deepseek-v4-flash-0731',
+    'glm-5.2': 'deepseek-ai/deepseek-v4-flash-0731'
 };
 
 // Health check endpoint
